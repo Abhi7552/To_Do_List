@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+    <!-- Addimg stylesheet to the page -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Creating header to the page -->
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title of the task..">
+        <span onclick="newElement()" class="addBtn">
+          <i class="fa-solid fa-plus"></i>
+          Add Task
+        </span>
+      </div>
+      
+      <!-- Creating by default task added to the list -->
+      <ul id="myUL">
+        <li>Hit the gym</li>
+        <li>Complete topic OOPS in C++</li>
+        <li>Complete String Manipulation in c++</li>
+        <li class="checked">Buy groceries</li>
+        <li>Meet my friend</li>
+        <li>Organize room</li>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </ul>
+      <!-- Adding JS file to the page -->
+    <script src="index.js"></script>
+    <!-- For using font awesome icons -->
+    <script src="https://kit.fontawesome.com/a602ffd6c7.js" crossorigin="anonymous"></script>
+</body>
+</html>
